@@ -1,0 +1,8 @@
+.homeContainer{
+    display: flex;
+    flex-direction: row;
+}
+.openOrders .processingOrders .pausedOrders .closedOrders .doomedOrders{
+    display: flex;
+    flex-direction: column;
+}
