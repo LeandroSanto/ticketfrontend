@@ -7,7 +7,6 @@ return(
   <div className="sideBarContainer">
     <nav>
       <Link to='/'>Dashboard</Link>
-
       <Link to='/newclient'>Novo Cliente</Link>
     </nav>
   </div>

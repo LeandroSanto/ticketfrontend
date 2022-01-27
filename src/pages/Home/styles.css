@@ -1,8 +1,14 @@
 .homeContainer{
     display: flex;
     flex-direction: row;
+
+    margin-left: 10vw;
 }
-.openOrders .processingOrders .pausedOrders .closedOrders .doomedOrders{
+.openOrders 
+.processingOrders 
+.pausedOrders 
+.closedOrders 
+.doomedOrders{
     display: flex;
     flex-direction: column;
 }
