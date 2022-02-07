@@ -1,10 +1,13 @@
 import { Button } from "../../components/Button";
+import { Header } from "../../components/Header/Index";
 import { Input } from "../../components/Input";
 
 import './styles.css';
 
 export function NewClient() {
   return(
+    <>
+    <Header pagename='Novo Cliente' username='Leandro' />
     <div className="newClientContainer">
       <form>
         <Input name='client' label='Nome do Cliente:' type='text' />
@@ -18,5 +21,6 @@ export function NewClient() {
         <Button name='save' label='Salvar informações'/>
       </footer>
     </div>
+    </>
   )
 }

@@ -1,0 +1,19 @@
+.headerContainer{
+    display:flex;
+    flex-direction: row;
+    
+    margin-left: 10vw;
+    margin-bottom: 10px;
+
+    background: #757576
+}
+
+.headerConainer #titlePage{
+    display: flex;
+}
+
+.headerConainer #loginBox{
+    display: flex;
+    justify-content: right;
+    
+}

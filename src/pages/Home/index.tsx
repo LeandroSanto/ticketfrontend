@@ -1,9 +1,12 @@
+import { Header } from "../../components/Header/Index";
 import { OrdersCards } from "../../components/OrdersCard";
 
 import './styles.css';
 
 export function Home() {
   return(
+    <>
+    <Header pagename='Dashboard' username="Leandro" />
     <div className="homeContainer">
       <div className="openOrders">
         <OrdersCards os={22010001} client="Claudia Contabilidade" status= {0}/>
@@ -24,5 +27,6 @@ export function Home() {
         <OrdersCards os={22010001} client="Claudia Contabilidade" status= {4}/>
       </div>
     </div>
+    </>
   )
 }
