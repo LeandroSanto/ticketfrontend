@@ -22,7 +22,7 @@ export function OrdersCards(props: OrderCardsProps ) {
           props.status===1? '#fff': 
           props.status===2? '#000':
           props.status===3? '#000':
-          #fff',
+          '#fff',
          borderRadius: '4px',
           }} > OS: {props.os}</label>
       <label> Cliente: {props.client}</label>

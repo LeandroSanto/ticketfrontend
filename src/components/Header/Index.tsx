@@ -1,3 +1,4 @@
+import Avatar from '@mui/material/Avatar';
 import { Button } from '../Button';
 
 import './styles.css';
@@ -14,8 +15,7 @@ export const Header:React.FunctionComponent<Headerprops> = ({pagename, username}
         <h1>{pagename}</h1>
       </div>
       <div id="loginBox">
-        <p>{username}</p>
-        <Button name='logoutButton' label='Sair' />
+        <Avatar alt={username}>{username}</Avatar>
       </div>
     </div>
   )

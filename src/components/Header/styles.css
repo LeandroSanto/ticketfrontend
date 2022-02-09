@@ -1,6 +1,7 @@
 .headerContainer{
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
     
     margin-left: 10vw;
     margin-bottom: 10px;
@@ -8,12 +9,16 @@
     background: #757576
 }
 
-.headerConainer #titlePage{
+#titlePage{
     display: flex;
+    margin-left: 3%;
+    color:#fff;
 }
 
-.headerConainer #loginBox{
+#loginBox{
     display: flex;
-    justify-content: right;
-    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3%;
 }
