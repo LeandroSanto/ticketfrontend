@@ -5,6 +5,8 @@ import './styles.css';
 
 export function Home() {
   return(
+    <>
+    <Header pagename='Dashboard' username="Leandro" />
     <div className="homeContainer">
       <Header title='Dashboard' user="Leandro" />
       <div className='dashboard'>
@@ -28,5 +30,6 @@ export function Home() {
         </div>
       </div>
     </div>
+    </>
   )
 }

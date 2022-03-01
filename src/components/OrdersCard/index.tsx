@@ -17,9 +17,13 @@ export function OrdersCards(props: OrderCardsProps ) {
           props.status===2? '#eb5c0f':
           props.status===3? '#17da2e':
          '#da1313',
-
-         borderRadius: '4px'
-
+         color: 
+          props.status===0?  '#fff': 
+          props.status===1? '#fff': 
+          props.status===2? '#000':
+          props.status===3? '#000':
+          '#fff',
+         borderRadius: '4px',
           }} > OS: {props.os}</label>
       <label> Cliente: {props.client}</label>
       <label>
@@ -28,7 +32,7 @@ export function OrdersCards(props: OrderCardsProps ) {
           props.status===1? 'Em Tratamento':
           props.status===2? 'Pausado':
           props.status===3? 'Fechado':
-          'C  ondenado'
+          'Condenado'
         }</label>
     </div>
   )
