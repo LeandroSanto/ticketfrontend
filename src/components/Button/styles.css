@@ -6,7 +6,7 @@
 .buttonContainer button{
   background: #0080c0;
   border: 1px;
-  border-radius: 8;
+  border-radius: 0.3rem;
   padding: 10px;
 }
 .buttonContainer label{

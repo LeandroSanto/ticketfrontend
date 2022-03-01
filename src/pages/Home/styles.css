@@ -1,14 +1,22 @@
 .homeContainer{
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: column;
 
-    margin-left: 10vw;
+  width: 80%;
+}
+.dashboard{
+  display:flex;
+  flex-direction: row;
+
+  margin-top: 10px;
+  
+  width: 100%
 }
 .openOrders 
 .processingOrders 
 .pausedOrders 
 .closedOrders 
 .doomedOrders{
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }

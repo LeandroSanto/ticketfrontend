@@ -1,17 +1,24 @@
 .sideBarContainer{
-    display: block;
-    flex-direction: column;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 15px;
 
-    position: absolute;
+  margin-bottom: 0px;
 
-    margin-top: 0;
-    margin-right: 15px;
+  background: #1f2b31;
 
-    width: 15vw;
-    height: 100vh;
+  height: 95vh;
 }
 
 .sideBarContainer nav{
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+
+  padding: 15px;
+}
+
+#link{
+  text-decoration: none;
+  color:#fff;
 }

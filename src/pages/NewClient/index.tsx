@@ -1,4 +1,5 @@
 import { Button } from "../../components/Button";
+import { Header } from "../../components/Header/Index";
 import { Input } from "../../components/Input";
 
 import './styles.css';
@@ -6,6 +7,7 @@ import './styles.css';
 export function NewClient() {
   return(
     <div className="newClientContainer">
+      <Header title='Cadastrar Um Novo Cliente' user='Leandro' />
       <form>
         <Input name='client' label='Nome do Cliente:' type='text' />
         <Input name='cpfcnpj' label='CPF/CNPJ:' type='text' />

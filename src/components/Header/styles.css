@@ -1,0 +1,15 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #575bf7;
+}
+#titleBox{
+    color: #fff;
+    padding: 15px;
+}
+#userBox{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
