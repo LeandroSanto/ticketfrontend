@@ -1,5 +1,4 @@
 .headerContainer{
-<<<<<<< HEAD
     display: flex;
     justify-content: space-between;
     background-color: #575bf7;
@@ -13,15 +12,11 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-=======
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
     
     margin-left: 10vw;
     margin-bottom: 10px;
 
-    background: #757576
+    color:#fff;
 }
 
 #titlePage{
@@ -36,5 +31,4 @@
     justify-content: center;
     align-items: center;
     margin-right: 3%;
->>>>>>> 1e2db42517d77b56086aca7abaea2999ab2fdf0a
 }

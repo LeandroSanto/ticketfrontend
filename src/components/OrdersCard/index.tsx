@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import './styles.css';
 
 interface OrderCardsProps{
@@ -7,9 +8,10 @@ interface OrderCardsProps{
 }
 
 export function OrdersCards(props: OrderCardsProps ) {
+  const navigate = useNavigate();
   return(
-    <div className="orderCardContainer">
-      <label 
+    <div className="orderCardContainer" onClick={()=> navigate(`/orderpage/${props.os}`)}>
+      <label  
       style={{ 
         background: 
           props.status===0?  '#595454': 

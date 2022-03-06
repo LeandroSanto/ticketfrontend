@@ -6,8 +6,6 @@ import './styles.css';
 
 export function NewClient() {
   return(
-    <>
-    <Header pagename='Novo Cliente' username='Leandro' />
     <div className="newClientContainer">
       <Header title='Cadastrar Um Novo Cliente' user='Leandro' />
       <form>
@@ -22,6 +20,5 @@ export function NewClient() {
         <Button name='save' label='Salvar informações'/>
       </footer>
     </div>
-    </>
   )
 }
